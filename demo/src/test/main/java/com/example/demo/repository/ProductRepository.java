@@ -14,7 +14,7 @@ import java.util.List;
 
 @Repository
 public class ProductRepository implements IProductRepository {
-    private List<Product> products = new ArrayList<>();
+    private final List<Product> products = new ArrayList<>();
 
     @Override
     public void add(Product product) {

@@ -8,7 +8,7 @@ import java.util.List;
 
 @Service
 public class ProductService {
-    // final ~ const
+    // final ~ const pt referinta
     private final IProductRepository productRepository;
 
     private ProductService(IProductRepository productRepository) {
