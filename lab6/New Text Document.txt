@@ -1,0 +1,22 @@
+Principii pentru dezvoltarea unei aplicatii mentenabile
+
+1. KISS (Keep It Short and Simple)
+	- rezolva o prob cu cat mai putine linii de cod
+	- gaseste calea cea mai scurta pentru a rezolva problema
+	- opusul acestui principiu (e de evitat) este Overengineering-ul
+2. DRY (Don't Repeat Yourself) != WET (Write Everything Twice)
+	- nu scriem acelasi cod de mai multe ori
+3. YAGNI (You Ain't Gonna Need It)
+	- daca nu ti se cere o functionalitate, nu o implementa
+4. S - Single Responsibility
+	- orice fel de entitate trebuie sa serveasca un singur scop
+   O - Open-Closed
+	- orice functionalitate trebuie sa fie open for extension si closed for modification
+   L - Liskov
+	- acolo unde avem mostenire, inlocuind numele clasei parinte cu al unei clase copil,
+	nu ar trebui modificate functionalitatile (ar trebui sa functioneze la fel)
+   I - Interface Segregation
+	- nu e recomandat sa folosim contracte "grase", cu multe metode
+   D - Dependency Inversion
+	- trebuie sa folosim abstractizari cand avem mai multe tipuri de implementari
+	(interfete etc.)
